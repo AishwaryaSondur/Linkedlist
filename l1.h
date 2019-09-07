@@ -21,7 +21,6 @@ uint32_t length;
 };
 
 
-
 Slist slist_new();
 uint32_t slist_length(Slist *list);
 uint32_t slist_lookup(Slist *list,int32_t key);
